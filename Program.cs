@@ -15,6 +15,11 @@ Console.WriteLine("\nAfter adding a 7 elements to a 5 elements capacity buffer:"
 buffer.PrintBuffer(ringBuuffer);
 
 
+Console.WriteLine($"\nbuffer.Front(): {ringBuuffer.Front()}");
+
+Console.WriteLine($"\nbuffer.Back(): {ringBuuffer.Back()}");
+
+
 ringBuuffer.PopFront();
 Console.WriteLine("\nbuffer.PopFront():");
 buffer.PrintBuffer(ringBuuffer);
